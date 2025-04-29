@@ -1,0 +1,109 @@
+html {font-size: 10px;}
+:root {
+    --white: #FFFFFF;
+    --green: #c5f82a;
+    --grey700: #333333;
+    --grey800: #1f1f1f;
+    --grey900: #141414;
+    --spacing500: 4rem;
+    --spacing300: 2.4rem;
+    --spacing200: 1.6rem;
+    --spacing150: 1.2rem;
+    --spacing100: 0.8rem;
+    --spacing50: 0.4rem;
+}    
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: var(--white);
+    background-color: var(--grey900);
+    text-align: center;
+}
+.profile p, .profile h3, .profile div {margin: 4px;}
+.profile {
+    background-color: var(--grey800);
+    width: calc(87vw - var(--spacing300) * 2);
+    margin: 0 auto;
+    padding: var(--spacing300);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing300);
+    border-radius: var(--spacing150);
+    transform: translateY(calc(50vh - 51%));
+}
+
+@media screen and (min-width: 540px), screen and (any-hover: hover) {    /* to target tablets or desktop screens */
+    .profile {
+        padding: var(--spacing500);
+        width: calc(38.4rem - var(--spacing500) * 2);
+    }
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing150);
+}
+.author-pic {
+    border-radius: 50%;
+    height: 8.8rem;
+    width: 8.8rem;
+}
+.author-location {color: var(--green);}
+.buttons-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    gap: var(--spacing200)
+}
+.social-button {
+    background-color: var(--grey700);
+    width: 100%;
+    height: 4.4rem;
+    color: var(--white);
+    border: none;
+    border-radius: 0.6rem;
+    transition: 0.5s;    /* for hover effect */
+}
+.social-button:hover {
+    background-color: var(--green);
+    color: var(--grey700);
+}
+.textPreset1 {
+    font-weight: bold;    
+    font-size: var(--spacing300); 
+}
+.textPreset2 {
+    font-weight: normal;    
+    font-size: 1.4rem; 
+}
+.textPreset3 {
+    font-weight: bold;    
+    font-size: 1.4rem; 
+}
+
+@media screen and (max-width: 374px) and (any-hover: none) {      /* to target narrower phones */
+    .textPreset1 {
+        font-size: 2.2rem;
+    }
+    .textPreset2, .textPreset3 {
+        font-size: 1.2rem;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0;
+    right: 0;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: var(--green); }
+

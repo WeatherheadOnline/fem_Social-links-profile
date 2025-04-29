@@ -1,0 +1,23 @@
+- Starting by adding to .css from design file: font; color variables; spacing variables; text preset classes.
+
+- Looked at design file and visually separated it into sections/groups. Added html containers with class tags designed for re-use on additional user profile cards.
+
+- Added basic css for each section / text: color, background-color. Adde text-preset classes to html.
+
+- A concern I have is that specific font weights were listed in style-guide.md, but were not listed in the Figma file. I used the "bold" and "normal" font weights listed in Figma and they look about right.
+
+- The vertical spacing didn't match the design file when I used the same gap sizes, because the design file has a small vertical margin on all text elements. I added a small vertical margin to each of my text elements to try to match.
+
+- To achieve vertical spacing, all elements got `margin: 0`, and were grouped into flexboxes, using the `gap` property to set vertical spacing.
+
+- Had some trouble getting link text to be vertically centered; changed from <p> to <button> and that fixed the problem.
+
+- Added styles for mobile first
+
+- A stumbling block: on narrower mobile screens (360px), the bio text was wrapping. Added a media query to reduce font sizes on screens under 375px wide.
+
+- Tablets: added a media query with a breakpoint matching the narrowest tablet screen listed in Chrome dev tools
+
+
+
+
