@@ -78,26 +78,16 @@ body {
 }
 .textPreset1 {
     font-weight: bold;    
-    font-size: var(--spacing300); 
+    font-size: min(2.4rem, 6.1vw); 
 }
 .textPreset2 {
     font-weight: normal;    
-    font-size: 1.4rem; 
+    font-size: min(1.4rem, 3.35vw); 
 }
 .textPreset3 {
     font-weight: bold;    
-    font-size: 1.4rem; 
+    font-size: min(1.4rem, 3.35vw); 
 }
-
-@media screen and (max-width: 374px) and (any-hover: none) {      /* to target narrower phones */
-    .textPreset1 {
-        font-size: 2.2rem;
-    }
-    .textPreset2, .textPreset3 {
-        font-size: 1.2rem;
-    }
-}
-
 footer {
     position: absolute;
     bottom: 0.3rem;

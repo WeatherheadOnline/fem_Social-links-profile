@@ -12,11 +12,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -35,70 +31,37 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [weatherheadonline.github.io/fem_Social-links-profile/](https://weatherheadonline.github.io/fem_Social-links-profile/)
 
 ## My process
+
+I started by adding some CSS rules based on the design file: variables for colors and spacing, and text preset classes incorporating the specified font and font weights. Then I looked at the design and tried to separate it out into sections. I added HTML containers, with class tags designed to be re-used for any additional user profile cards. Once the HTML was set up, I added basic rules for each section: CSS for background colors and text colors; and text preset classes in HTML text containers. 
+
+Next I started adding more quantitative style rules, using a mobile-first approach and then going back afterwards to add media queries as needed for desktop and tablets. To achieve the desired vertical spacing, I grouped elements into nested flex boxes, gave each element `margin: 0`, and used the flexbox `gap` property to set the vertical spacing between elements.
+
+At that point, the vertical spacing I'd used didn't match up to the visual appearance of the design file, because the design file puts a small vertical margin on all text elements. I added a small margin to the top and bottom of each of my text elements to try to match the design.
+
+Lastly, I added media queries to target desktop screens (using `hover`) and tablet screens (using `min-width` combined with `any-hover: none`). Media queries were used to control the width and padding of the profile card.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned to include tablets when designing for responsiveness. In the past I had only differentiated between desktop and smartphone screens; now I know better, and have had some practice at it.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+And I learned that text in the Figma design file has a small margin and that the spacing in the final product should be adjusted to account for the extra space.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I would like to continue gaining experience in more sophisticated media queries that respond well on tablet screens in addition to desktop and smartphone screens.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [www.weatherheadonline.com](www.WeatherheadOnline.com)
+- Frontend Mentor - [@WeatherheadOnline](https://www.frontendmentor.io/profile/WeatherheadOnline)
+- LinkedIn - [@eddieweatherhead](https://www.linkedin.com/in/eddieweatherhead/)
