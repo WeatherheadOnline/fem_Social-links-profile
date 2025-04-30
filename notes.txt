@@ -1,3 +1,20 @@
+Social links profile
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+** Opportunities for improvement **
+
+Everything has (a bit) too much space around it! Try removing the 4px border around text elements.
+- implemented 4/29 8:30p
+
+Everything STILL has too much vertical space around it. Revisit.
+- added margin:0 to elements that prev had margin:4px 4/30 9:30a
+
+Buttons' border-radius is a bit too small
+- changed from 0.6rem to 0.8rem 4/30 9:30a
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Starting by adding to .css from design file: font; color variables; spacing variables; text preset classes.
 
 - Looked at design file and visually separated it into sections/groups. Added html containers with class tags designed for re-use on additional user profile cards.
