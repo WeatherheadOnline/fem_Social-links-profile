@@ -22,7 +22,7 @@ body {
     background-color: var(--grey900);
     text-align: center;
 }
-.profile p, .profile h3, .profile div {margin: 0;}
+.profile p, .profile h3, .profile div {margin: 2px;}
 .profile {
     background-color: var(--grey800);
     width: calc(87vw - var(--spacing300) * 2);
@@ -78,15 +78,18 @@ body {
 }
 .textPreset1 {
     font-weight: bold;    
-    font-size: min(2.4rem, 6.1vw); 
+    /* font-size: min(2.4rem, 6.1vw);  */
+    font-size: 2.4rem;
 }
 .textPreset2 {
     font-weight: normal;    
-    font-size: min(1.4rem, 3.35vw); 
+    /* font-size: min(1.4rem, 3.35vw);  */
+    font-size: 1.4rem;
 }
 .textPreset3 {
     font-weight: bold;    
-    font-size: min(1.4rem, 3.35vw); 
+    /* font-size: min(1.4rem, 3.35vw);  */
+    font-size: 1.4rem;
 }
 footer {
     position: absolute;
