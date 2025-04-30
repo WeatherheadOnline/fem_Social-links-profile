@@ -18,6 +18,9 @@
 
 - Tablets: added a media query with a breakpoint matching the narrowest tablet screen listed in Chrome dev tools
 
+- While writing up my submission, I realized that to make the text smaller on narrower phones, I could use what I learned in the previous challenge ("blog post preview card") to make it happen without using a media query.
+
+
 
 
 

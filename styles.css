@@ -22,7 +22,7 @@ body {
     background-color: var(--grey900);
     text-align: center;
 }
-.profile p, .profile h3, .profile div {margin: 4px;}
+/* .profile p, .profile h3, .profile div {margin: 4px;} */
 .profile {
     background-color: var(--grey800);
     width: calc(87vw - var(--spacing300) * 2);
