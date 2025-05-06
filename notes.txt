@@ -9,9 +9,19 @@ Everything has (a bit) too much space around it! Try removing the 4px border aro
 
 Everything STILL has too much vertical space around it. Revisit.
 - added margin:0 to elements that prev had margin:4px 4/30 9:30a
+- too little space -> added margin:2px 4/30 11:00a
 
 Buttons' border-radius is a bit too small
-- changed from 0.6rem to 0.8rem 4/30 9:30a
+- changed from 0.6rem to 0.8rem 4/30 9:30a => looks good.
+
+[-] Distance between buttons looks fine
+[-] Card padding looks fine
+[-] Buttons' padding is slightly too small?? -> leave for now
+[x] All fonts need to be slightly bigger
+[x] Need more space between name and location
+[x] Need more space between location and bio line
+[x] And maybe just a tiny bit more space between bio line and buttons
+*5/6/25* Increased root font size from 10px to 10.5px; increased baseline margin on text elements from 2px to 3px.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
